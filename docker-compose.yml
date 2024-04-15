@@ -25,7 +25,7 @@ services:
       - matomo:/var/www/html:z
       - ./matomo.conf:/etc/nginx/conf.d/default.conf:z
     ports:
-      - 8080:80
+      - 80:80
 
 volumes:
   db:
