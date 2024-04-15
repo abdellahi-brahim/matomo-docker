@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DB_CONTAINER_NAME='db_1'
-MATOMO_CONTAINER_NAME='app_1'
+DB_CONTAINER_NAME='matomo-docker_db_1'
+MATOMO_CONTAINER_NAME='matomo-docker_app_1'
 DB_USER='matomo'
 DB_NAME='matomo'
 
